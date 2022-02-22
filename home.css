@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'comic sans ms';
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Bagian Logo*/
+.logo a {
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Akaya Kanadaka', cursive;
+    color: #6cbf84;
+}
+
+/*Bagian Border*/
+.border {
+    padding: 20px 0;
+    background-color: rgb(108, 191, 132);
+    color: #6cbf84;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+/*Bagian menu*/
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: #ffffff;
+    z-index: 1;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: 'comic sans ms';
+    text-decoration: none;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: #6cbf84;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.active {
+    background-color: #6cbf84;
+    color: #fff;
+}
+
+/*Bagian Banner*/
+.benner {
+    height: 80vh;
+    background-image: url('AnggurHijau.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Bagian transparant*/
+.benner:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(108, 191, 132, .7);
+}
+
+/*Bagian Welcome*/
+.benner h2 {
+    font-size: 35px;
+    color: #fff;
+    z-index: 1;
+    padding: 30px 35px;
+    border: 10px solid #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/*Bagian About*/
+.about h3 {
+    text-align: center;
+    padding: 25px;
+    color: #70BF6C;
+    font-family: jomhuria;
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+
+.about p {
+    text-align: center;
+    color: #000000;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+/*Bagian gallery*/
+.gallery h3 {
+    text-align: center;
+    margin-top: 60px;
+    color: #70BF6C;
+    font-family: jomhuria;
+    font-size: 33px;
+    margin-bottom: 35px;
+}
+
+.img {
+    width: 100%;
+    padding: 0 10%;
+}
+
+.gallery-list {
+    padding-bottom: 50px;
+}
+
+.gallery-list img {
+    width: 100%;
+    height: 300px;
+    border: 3px solid #6CBFA0;
+}
+
+div.desc {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    color: #70bf6c;
+}
+
+/*Bagian Contactus*/
+#contactus h3 {
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(112, 191, 108);
+    font-family: jomhuria;
+    font-size: 33px;
+    margin-bottom: 35px;
+}
+
+/*Bagian imputan*/
+input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    margin-left: 40%;
+    font-size: 18px;
+    border: 1px solid #000000;
+}
+
+#contactus p {
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 40%;
+}
+
+/*Bagian kirim*/
+.contact-submit {
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+.contact-submit:hover {
+    background-color: #6cbf84;
+    color: #000000;
+}
+
+/*Bagian sosial media*/
+.media {
+    width: 100%;
+    padding: 50px 0 50px 0px;
+    margin-top: 20px;
+    background-color: #6cbf84;
+}
+
+.media ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.media p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+}
+
+.containericon {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Bagian Footer */
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    background-color: #70bf6c;
+}
+
+.center {
+    font-size: 16px;
+    color: #fff;
+}
